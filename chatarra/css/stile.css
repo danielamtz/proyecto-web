@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(180, 19, 19);
+
+    margin: 0px;
+    height: 645px;
+}
+.contenido{
+    height: 316px;
+    width: 0px;
+    position: relative;
+    left: 106px;
+    top: 135px;
+    margin: 0px;
+}
+.contenido2{
+    margin: 0px;
+    width: 0px;
+}
+.classbanner{
+    position: relative;
+    top: 117px;
+    left: 163px;
+    margin: 0px;
+    width: 0px;
+
+}
+.img1{
+    position: relative;
+    top: 48px;
+}
+.img2{
+position: relative;
+top: 13px;
+left: -32px;
+}
+.titulo{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-family: fantasy;
+    position: absolute;
+    left: -3px;
+    top: -48px;
+}
+.contenido2{
+    position: relative;
+    top: -181px;
+    left: 555px;
+}
+.button{
+    position: relative;
+    top: 24px;
+    border: 0px;
+    left: 71px;
+    color: white;
+    background-color: #ff00001a;
+}
+.button2{
+    position: absolute;
+    left: 93px;
+    top: 245px;
+    color: white;
+    background-color: #ff00001a;
+    border: 0px;
+}
+.contenido3{
+    position: relative;
+    margin: 0px;
+    top: -486px;
+    margin: 0px;
+    width: 0px;
+    left: 989px;
+}
+.contenido4{
+    position: relative;
+    top: -275px;
+    left: 114px;
+    margin: 0px;
+    width: 0px;
+}
+.contenido5{
+    position: relative;
+    left:  991px;
+    top: -535px;
+    position: relative;
+    margin: 0px;
+    width: 0px
+}
+.contenido6{
+    position: relative;
+    top: -812px;
+    left: 526px;
+    margin: 0px;
+    width: 0px;
+}
+.imgalita{
+    position: relative;
+    top: -109px;
+    left: -32px;
+}
+.infor{
+    background-color: #0a0707eb;
+    position: relative;
+    top: 117px;
+}
+.title{
+    color: #cece1d;
+    text-align: center;
+    font-size: 41px;
+    font-family: fantasy;
+}
+.pie{
+        position: absolute;
+    top: 1680px;
+    left: 611px;
+}
+.icono{
+  
+    color: yellow;
+    font-size: 56px;
+}
+.buttonredes{
+    border: 0px;
+    background-color: #ff000000;
+}

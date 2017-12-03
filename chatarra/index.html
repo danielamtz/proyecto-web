@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+    <head>
+            <title> Comida Rapida</title>
+            <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+            <link rel="stylesheet" type="text/css" href="css/stile.css">
+            <meta charset="utf-8"/>
+        
+        
+        
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <style>
+        h1{
+            display: none;
+        }
+        #w{
+            width: 50px;
+            background-color: bisque;
+        }
+        #respuesta-ej1{
+                width: 394px;
+    height: 174px;
+    background-color: bisque;
+    margin-top: -180px;
+        }
+        
+        #respuesta-ej2{
+                 width: 394px;
+    height: 174px;
+    background-color: bisque;
+    margin-bottom: -189px;
+    margin-top: 28px;
+   
+            
+        }
+         #respuesta-ej3{
+                width: 394px;
+    height: 174px;
+    background-color: bisque;
+    margin-bottom: -192px;
+    margin-top: 28px;
+    margin-right: 30px;
+    margin-left: -63px;
+   
+            
+        }
+    
+        
+         #respuesta-ej4{
+              width: 394px;
+    height: 174px;
+    background-color: bisque;
+    margin-bottom: -192px;
+    margin-top: -10px;
+    margin-right: 30px;
+    margin-left: -63px;
+            
+        }
+    
+    </style>
+        
+        
+        <script >
+$(document).ready(function(){ 
+   $('#alternar-respuesta-ej1').on('click',function(){
+      $('#respuesta-ej1').toggle();
+       
+   });
+    
+     $('#alternar-respuesta-ej2').on('click',function(){
+      $('#respuesta-ej2').toggle();
+       
+   });
+    
+     $('#alternar-respuesta-ej3').on('click',function(){
+      $('#respuesta-ej3').toggle();
+       
+   });
+    
+     $('#alternar-respuesta-ej4').on('click',function(){
+      $('#respuesta-ej4').toggle();
+       
+   });
+})
+</script>
+        
+        
+               
+    </head>
+    <body >
+            
+        <div class="classbanner">
+          <img src="imagenes/banner.gif" alt="">
+          </div>
+
+        <div class="infor">
+                <hr size="4px" color="yellow"/>
+                <p class="title">Recetario de Comida Rapida </p>
+                <p></p>
+                <hr size="4px" color="yellow"/>
+                
+        </div>  
+
+        <div class="contenido">
+            <p class="titulo">Hamburguesa de Carne</p>
+            <img src="imagenes/sandcarne.png" class="img1">
+            <button class="button"> leer mas</button>
+        </div>
+        <div class="contenido2">
+              <p class="titulo">Hamburguesa de Pollo</p>
+              <img src="imagenes/sandpollo.png" class="img2">
+              <button class="button2"> leer mas</button>
+        </div>
+        <div class="contenido3">
+              <p class="titulo">doble carne</p>
+              <img src="imagenes/ClubHouse1.png" class="img2">
+              <button class="button2" id="alternar-respuesta-ej4"> leer mas</button>
+            <div id="respuesta-ej4" style="display:none"  >Respuesta... 
+                 
+                <h1 >dsdsdsdsd</h1>
+             
+             
+             </div>
+            
+                        
+
+        </div>
+        <div class="contenido4">
+                <p class="titulo">Burrito</p>
+                <img src="imagenes/burritomexican.png" class="img2">
+                <button class="button2" id="alternar-respuesta-ej2"> leer mas</button>
+                             <div id="respuesta-ej2" style="display:none"  >Respuesta... 
+                 
+                <h1 >dsdsdsdsd</h1>
+             
+             
+             </div>
+         </div>
+
+         <div class="contenido5">
+                 <p class="titulo">Cuernito</p>
+                 <img src="imagenes/cuernito.png" class="img2">
+                 <button class="button2" id="alternar-respuesta-ej3"> leer mas</button>
+             
+             <div id="respuesta-ej3" style="display:none" id="w" >Respuesta... 
+                 
+                <h1 >dsdsdsdsd</h1>
+             
+             
+             </div>
+         </div> 
+         <div class="contenido6">
+                <p class="titulo">Alitas</p>
+                <img src="imagenes/alitas.png" class="imgalita">
+                <button class="button2" id="alternar-respuesta-ej1"> leer mas</button>
+             <div id="respuesta-ej1" style="display:none" id="w" >Respuesta... 
+                 
+                <h1 >dsdsdsdsd</h1>
+             
+             
+             </div>
+         </div> 
+        
+         
+         <div class="pie">
+                  <hr size="4px" color="yellow"/>
+               <button class="buttonredes"> <i class="fa fa-facebook icono"  ></i></button>
+               <button class="buttonredes"> <i class="fa fa-twitter icono " ></i></button>
+                <button class="buttonredes" ><i class="fa fa-instagram icono"></i></button>
+                <hr size="4px" color="yellow"/> 
+             
+              
+       </div> 
+        
+        
+       
+ 
+
+        
+        
+       
+    </body>
+</html>
